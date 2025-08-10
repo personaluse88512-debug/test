@@ -15,11 +15,11 @@ docker run -p 8008:8000 manishjajoriya/final:v1
 ## 🚀 Locally
 
 # 1️⃣ Grab the code
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/rsRishuSingh/bajaj-fin.git
+cd bajaj-fin
 
 # 2️⃣ Install the magic
 pip install -r requirements.txt
 
 # 3️⃣ Run the beast
-python final_submit.py
+uvicorn main:app --reload --port 8008
