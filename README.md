@@ -10,7 +10,7 @@ A lightning-fast, AI-powered system for extracting, chunking, embedding, and que
 ```bash
 docker run -p 8008:8000 manishjajoriya/final:v1
 
----
+```
 
 ## 🚀 Locally
 
@@ -23,3 +23,6 @@ pip install -r requirements.txt
 
 # 3️⃣ Run the beast
 uvicorn main:app --reload --port 8008
+
+```
+
