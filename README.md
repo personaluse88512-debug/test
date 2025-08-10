@@ -26,3 +26,7 @@ uvicorn main:app --reload --port 8008
 
 ```
 
+```
+# API Link
+https://hackrx-server-s3wp9.ondigitalocean.app/hackrx/run
+
